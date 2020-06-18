@@ -24,38 +24,6 @@ public class User {
   private String birthday;
   private String type;
 
-  @OneToMany(mappedBy="user")
-  private List<Review> reviews;
-
-  // many to many in SQL
-  // users = {u1, u2, u3}
-  // enrollments = {(u1, s1, 'A', 5), (u2, s1, 'A-', 4), (u2, s3), (u3, s3)}
-  // sections = {s1, s2, s3}
-
-  @ManyToMany
-  @JoinTable(
-          name="enrollments",
-          joinColumns=@JoinColumn(name="USER_ID", referencedColumnName="ID"),
-          inverseJoinColumns=@JoinColumn(name="SECTION_ID", referencedColumnName="ID"))
-
-  private List<Section> sections;
-
-  public List<Review> getReviews() {
-    return reviews;
-  }
-
-  public void setReviews(List<Review> reviews) {
-    this.reviews = reviews;
-  }
-
-  public List<Section> getSections() {
-    return sections;
-  }
-
-  public void setSections(List<Section> sections) {
-    this.sections = sections;
-  }
-
   public void setBirthday(String birthday) {
     this.birthday = birthday;
   }
