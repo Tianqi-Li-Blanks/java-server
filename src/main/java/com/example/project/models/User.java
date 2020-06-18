@@ -1,9 +1,12 @@
 package com.example.project.models;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -15,7 +18,38 @@ public class User {
   private String username;
   private String password;
   private String email;
+  private String birthday;
   private String type;
+
+  @OneToMany(mappedBy="user")
+  private List<Product> products;
+  @OneToMany(mappedBy="user")
+  private List<User> users;
+
+
+  public void setUsers(List<User> users) {
+    this.users = users;
+  }
+
+  public List<User> getUsers() {
+    return users;
+  }
+
+  public void setProducts(List<Product> products) {
+    this.products = products;
+  }
+
+  public List<Product> getProducts() {
+    return products;
+  }
+
+  public void setBirthday(String birthday) {
+    this.birthday = birthday;
+  }
+
+  public String getBirthday() {
+    return birthday;
+  }
 
   public void setType(String type) {
     this.type = type;
@@ -56,4 +90,5 @@ public class User {
   public void setEmail(String email) {
     this.email = email;
   }
+
 }

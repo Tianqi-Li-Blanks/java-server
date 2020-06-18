@@ -20,4 +20,5 @@ public interface UserRepository
   @Query("SELECT user FROM User user WHERE user.username=:u")
   public User findUserByUsername(
           @Param("u") String username);
+
 }
