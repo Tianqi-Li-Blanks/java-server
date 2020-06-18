@@ -17,16 +17,6 @@ public class Product {
   private String productName;
   private Double price;
   private String details;
-  @ManyToOne
-  private User owner;
-
-  public void setOwner(User owner) {
-    this.owner = owner;
-  }
-
-  public User getOwner() {
-    return owner;
-  }
 
   public Double getPrice() {
     return price;

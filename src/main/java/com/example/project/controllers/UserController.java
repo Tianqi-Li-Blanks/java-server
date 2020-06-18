@@ -5,7 +5,9 @@ import com.example.project.services.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -47,6 +49,15 @@ public class UserController {
   @PostMapping("/api/profile")
   public User profile(HttpSession session) {
     User currentUser = (User) session.getAttribute("currentUser");
+    return currentUser;
+  }
+
+  @PutMapping("/api/profile")
+  public User profile(
+          @RequestBody User user,
+          HttpSession session) {
+    User currentUser = service.updateUser(user.getId(), user);
+    session.setAttribute("currentUser", currentUser);
     return currentUser;
   }
 
