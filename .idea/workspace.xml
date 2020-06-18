@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b90edc98-e0a2-4ef6-b986-ef8f74bedb31" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dQ9tWn1QkWYamM2mJtJlI05ZaL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DemoApplication">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.project.DemoApplication" />
+      <module name="cs4550-summer-2020-project-group17-Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cs4550-summer-2020-project-group17-Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.project.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b90edc98-e0a2-4ef6-b986-ef8f74bedb31" name="Default Changelist" comment="" />
+      <created>1592346664454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592346664454</updated>
+      <workItem from="1592346670232" duration="9000" />
+      <workItem from="1592346696068" duration="536000" />
+      <workItem from="1592347356222" duration="250000" />
+      <workItem from="1592349644729" duration="1346000" />
+      <workItem from="1592353867730" duration="4471000" />
+      <workItem from="1592438174260" duration="765000" />
+      <workItem from="1592441455468" duration="736000" />
+      <workItem from="1592443428196" duration="18000" />
+      <workItem from="1592443707842" duration="510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="864" y="426" key="#Assign_Data_Sources" timestamp="1592438209272">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="864" y="426" key="#Assign_Data_Sources/-1920.23.1920.1057/0.23.1920.1010@0.23.1920.1010" timestamp="1592347483045" />
+    <state x="864" y="426" key="#Assign_Data_Sources/0.23.1920.1010/-1920.23.1920.1057@0.23.1920.1010" timestamp="1592438209272" />
+    <state x="448" y="109" key="#Project_Structure" timestamp="1592347033641">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="448" y="109" key="#Project_Structure/-1920.23.1920.1057/0.23.1920.1010@0.23.1920.1010" timestamp="1592347033641" />
+    <state width="1878" height="274" key="GridCell.Tab.0.bottom" timestamp="1592439014655">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.bottom/0.23.1920.1010/-1920.23.1920.1057@0.23.1920.1010" timestamp="1592439014655" />
+    <state width="1878" height="274" key="GridCell.Tab.0.center" timestamp="1592439014654">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.center/0.23.1920.1010/-1920.23.1920.1057@0.23.1920.1010" timestamp="1592439014654" />
+    <state width="1878" height="274" key="GridCell.Tab.0.left" timestamp="1592439014653">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.left/0.23.1920.1010/-1920.23.1920.1057@0.23.1920.1010" timestamp="1592439014653" />
+    <state width="1878" height="274" key="GridCell.Tab.0.right" timestamp="1592439014654">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state width="1878" height="274" key="GridCell.Tab.0.right/0.23.1920.1010/-1920.23.1920.1057@0.23.1920.1010" timestamp="1592439014654" />
+    <state x="498" y="190" key="Maven.ArtifactSearchDialog" timestamp="1592346865376">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="498" y="190" key="Maven.ArtifactSearchDialog/-1920.23.1920.1057/0.23.1920.1010@0.23.1920.1010" timestamp="1592346865376" />
+  </component>
+</project>
