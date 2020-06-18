@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b90edc98-e0a2-4ef6-b986-ef8f74bedb31" name="Default Changelist" comment="" />
+    <list default="true" id="b90edc98-e0a2-4ef6-b986-ef8f74bedb31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +49,10 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\12972\Desktop\cs4550-summer-2020-project-group17-Server-master\src\main\webapp" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\12972\Desktop\cs4550-summer-2020-project-group17-Server-master\src\main\webapp" />
     </key>
   </component>
@@ -112,7 +114,16 @@
       <workItem from="1592441455468" duration="736000" />
       <workItem from="1592443428196" duration="18000" />
       <workItem from="1592443707842" duration="1170000" />
+      <workItem from="1592445008536" duration="505000" />
     </task>
+    <task id="LOCAL-00001" summary="edit">
+      <created>1592445109333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592445109333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +141,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="864" y="426" key="#Assign_Data_Sources" timestamp="1592438209272">
