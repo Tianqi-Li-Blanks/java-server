@@ -46,6 +46,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12972\Desktop\cs4550-summer-2020-project-group17-Server-master\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12972\Desktop\cs4550-summer-2020-project-group17-Server-master\src\main\webapp" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -103,7 +111,7 @@
       <workItem from="1592438174260" duration="765000" />
       <workItem from="1592441455468" duration="736000" />
       <workItem from="1592443428196" duration="18000" />
-      <workItem from="1592443707842" duration="510000" />
+      <workItem from="1592443707842" duration="1170000" />
     </task>
     <servers />
   </component>
