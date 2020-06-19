@@ -1,5 +1,4 @@
 package com.example.project.controllers;
-
 import com.example.project.models.Product;
 import com.example.project.services.ProductService;
 
@@ -28,10 +27,11 @@ public class ProductController {
     return productService.updateProduct(ProductId, updateProduct);
   }
 
-  @PostMapping("/api/products")
+  @PostMapping("/api/users/{uid}")
   public Product createProduct(
+          @PathVariable("uid") Integer userId,
           @RequestBody Product newProduct) {
-    return productService.createProduct(newProduct);
+    return productService.createProduct(userId, newProduct);
   }
 
   @GetMapping("/api/products")

@@ -1,9 +1,10 @@
 package com.example.project.services;
 
-
 import com.example.project.models.Product;
+import com.example.project.models.User;
 import com.example.project.repositories.ProductRepository;
 
+import com.example.project.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,19 +15,24 @@ import java.util.List;
 public class ProductService {
   @Autowired
   ProductRepository repository;
+  @Autowired
+  UserRepository userRepository;
 
   List<Product> products = new ArrayList<Product>();{
   }
 
-  public Product createProduct(Product product) {
+  public Product createProduct(Integer userId, Product product) {
+    User user = userRepository.findUserById(userId);
+    product.setOwner(user);
     return repository.save(product);
   }
   public Product findProductById(Integer id) {
     return repository.findProductById(id);
   }
 
+
   public List<Product> findAllProduct() {
-    return (List<Product>)repository.findAll();
+    return repository.findAllProducts();
   }
 
   public List<Product> deleteProduct(Integer pid) {

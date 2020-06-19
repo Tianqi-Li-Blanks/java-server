@@ -15,14 +15,27 @@ import javax.persistence.Table;
 @Entity
 @Table(name="users")
 public class User {
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Integer id;
+
+
   private String username;
   private String password;
   private String email;
   private String birthday;
   private String type;
+
+  @OneToMany(mappedBy = "owner")
+  private List<Product> products;
+
+  public List<Product> getProducts() {
+    return products;
+  }
+
+  public void setProducts(List<Product> products) {
+    this.products = products;
+  }
 
   public void setBirthday(String birthday) {
     this.birthday = birthday;
